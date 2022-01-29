@@ -1,0 +1,33 @@
+:root {
+    background-color: #25232c;
+    color: #fff;
+    font-family: monospace;
+}
+
+* {
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+.notes {
+    border: 1px solid #3c3947;
+    background-color: #25232c;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+
+    width: 98vw;
+    height: 96vh;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 2rem;
+}
+
+textarea {
+    resize: none;
+}
