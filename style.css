@@ -31,3 +31,22 @@
 textarea {
     resize: none;
 }
+
+.contentid {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #3c3947;
+
+    z-index: 10;
+}
+
+.id {
+    color: #fff;
+    background: #25232c;
+    border: none;
+    outline: none;
+    font-size: 1.3rem
+}
